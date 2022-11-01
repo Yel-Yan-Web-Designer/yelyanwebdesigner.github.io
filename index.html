@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yel Yan</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="./vendors/external-css/normalize.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./vendors/external-css/swiper.bundle.min.css">
+    <!-- line icons -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="shortcut icon" href="./resources/img/me/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+<!-- ? Header -->
+    <header class="header w-100">
+        <!-- nav -->
+        <nav class="nav container mx-auto p-15 d-flex align-center justify-between">
+
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                <h2 >Yelyan</h2>
+            </a>
+
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list d-flex flex-column">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+
+            <!-- nav -btns -->
+            <div class="nav-btns d-flex justify-center align-center">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme nav-icon" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle-btn" id="nav-toggle-btn">
+                    <i class="lni lni-grid-alt nav-icon"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+<!-- ? Main -->
+    <main class="main" id="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="container mx-auto p-15 text-center" style="position: relative;">
+                <div class="intro-content mx-auto d-flex flex-column align-center">
+                    <!-- hero image -->
+                    <div class="avatar-image">
+                        <img src="./resources/img/me/supreme-me.svg" alt="" class="hero-image">
+                    </div>
+                    <!-- hero title & subtitle -->
+                    <div class="title">
+                        <h1>Yel Yan</h1>
+                        <p>Design Web UI &</p>
+                        <p>Delivery fast within short amount of time</p>
+                    </div>
+                    <!-- social icons -->
+                    <ul class="social-list d-flex justify-center w-50">
+                        <li class="socil-item"><a href="https://www.facebook.com/profile.php?id=100011037901538" target = "_blank" class="social-link">
+                            <i class="lni lni-facebook-original"></i>
+                        </a></li>
+                        <li class="socil-item"><a href="https://github.com/Yel-Yan-Web-Designer" target = "_blank" class="social-link">
+                            <i class="lni lni-github-original"></i>
+                        </a></li>
+                        <li class="socil-item"><a href="https://twitter.com/YelYan22" target = "_blank" class="social-link">
+                            <i class="lni lni-twitter-original"></i>
+                        </a></li>
+                        <li class="socil-item"><a href="https://www.behance.net/yelyan" target="_blank" class="social-link">
+                            <i class="lni lni-behance-original"></i>
+                        </a></li>
+                        <li class="socil-item"><a href="https://www.linkedin.com/in/yel-yan-7ab2b4241/" target="_blank" class="social-link">
+                            <i class="lni lni-linkedin-original"></i>
+                        </a></li>
+                    </ul>
+
+                    <div>
+                        <a href="#contact" class="btn">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="scroll-down">
+                    <a href="#about" class="mouse-wrapper d-flex flex-column justify-center align-center">
+                        <span>Scroll Down</span>
+                        <span class="mouse">
+                            <span class="wheel float"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="container mx-auto p-15">
+
+                <div class="section-title text-center mb-5">
+                    <h1>About Me</h1>
+                </div>
+
+                <div class="d-flex flex-column about-info">
+                    <div class="avatar-image d-flex justify-center align-center">
+                        <img src="./resources/img/me/tipsy-me.svg" alt="" class="mx-auto">
+                    </div>
+
+                    <div class="about-card d-flex flex-column">
+                        <div class="about-content">
+                            <p class="mb-3">
+                                I am passionate in designing website.I can design website by myself using Figma.My expertise is to create website design,UI design and customization of color theme,typography.
+                            </p>
+                            <div>
+                                <a href="./resources/img/me/yelyancv.pdf" class="btn" download>Download CV</a>
+                            </div>
+                        </div>
+                        <div class="about-skill d-flex flex-column" style="row-gap: 1.5rem;">
+                            <div class="skill-item">
+                                <h4 class="mb-1">UI/UX Design</h4>
+                                <div class="progress">
+                                    <div class="progress-in" style="width : 95%; background-color: rgb(255, 70, 96);"></div>
+                                    <div class="skill-precent">95%</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4 class="mb-1">Web Design</h4>
+                                <div class="progress">
+                                    <div class="progress-in" style="width : 98%; background-color: rgb(92, 116, 255);"></div>
+                                    <div class="skill-precent">98%</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4 class="mb-1">Frontend Development</h4>
+                                <div class="progress">
+                                    <div class="progress-in" style="width : 90%; background-color: rgb(255, 209, 92);"></div>
+                                    <div class="skill-precent">90%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Service -->
+        <section class="service section" id="service">
+            <div class="container mx-auto p-15">
+
+                <div class="section-title text-center mb-5 service-title">
+                    <h1>Services</h1>
+                </div>
+
+                <div class="service-container d-flex  flex-wrap align-center mb-5" style="row-gap: 2rem;">
+
+                    <div class="service-item">
+                        <div class="service-card text-center" style="background: hsl(231, 100%, 68%);">
+                            <img src="./resources/img/service-1.svg" alt="" class="service-img mb-3 mx-auto">
+                            <h3 class="mb-2">UI/UX Design</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, enim error. A quis nesciunt id, itaque autem ipsa expedita, iusto, repellat nisi voluptates asperiores. Magni non iure quod illum voluptas?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card text-center" style="background: hsl(59, 68%, 45%);">
+                            <img src="./resources/img/service-3.svg" alt="" class="service-img mb-3 mx-auto">
+                            <h3 class="mb-2">Web Design</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, enim error. A quis nesciunt id, itaque autem ipsa expedita, iusto, repellat nisi voluptates asperiores. Magni non iure quod illum voluptas?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card text-center" style="background: hsl(352, 100%, 64%);">
+                            <img src="./resources/img/service-2.svg" alt="" class="service-img mb-3 mx-auto">
+                            <h3 class="mb-2">Frontend Development</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, enim error. A quis nesciunt id, itaque autem ipsa expedita, iusto, repellat nisi voluptates asperiores. Magni non iure quod illum voluptas?
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="text-center">Looking for a custom job?
+                    <a href="#contact" style="color: var(--clr-primary);">
+                        Click Here 
+                    </a>
+                    to contact me!
+                </p>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="project section" id="project">
+            <div class="container mx-auto p-15">
+                <div class="section-title text-center mb-5">
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="d-grid" style="row-gap : 3rem;">
+
+                    <div class="d-flex-flex-wrap w-100">
+                        <div class="filter-btn-group d-flex flex-wrap justify-center align-center" style="column-gap: 2.5rem; row-gap: 1.5rem;">
+                            <button class="filter-btn active" type="button" data-filter="all">All</button>
+                            <button class="filter-btn " type="button" data-filter="business">Business</button>
+                            <button class="filter-btn" type="button" data-filter="web">Web</button>
+                            <button class="filter-btn" type="button" data-filter="ui">UI Design</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap justify-center" style="row-gap: 1rem; column-gap: 0.6rem;">
+                        <!-- project item 1 -->
+                        <div class="project-item" data-category="business">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/1.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">Business Web Design</span>
+                                <h3 class="project-item-title">MIEG Myanmar</h3>
+                                <a href="https://yel-yan-web-designer.github.io/MIEG-Myanmar.github.io/resources/index.html" class="project-link" target="_blank">  
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                        <!-- project item 2 -->
+                        <div class="project-item" data-category="web">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/2.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">Web Design</span>
+                                <h3 class="project-item-title">Personal Blog</h3>
+                                <!-- 
+                                    The TARGET attribute is used to tell the browser where you want to open the link. For example, you can tell the browser to open the linked page in a new browser window. There are several values to choose from:
+
+                                 -->
+                                <a href="https://yel-yan-web-designer.github.io/Personal-Blog.github.io/resources/index.html" class="project-link" target="_blank"> 
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                        <!-- project item 3 -->
+                        <div class="project-item" data-category="business">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/3.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">Business Web Design</span>
+                                <h3 class="project-item-title">E commerce</h3>
+                                <a href="https://yel-yan-web-designer.github.io/E-commerce.github.io/resources/index.html" class="project-link" target="_blank"> 
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                        <!-- project item 4 -->
+                        <div class="project-item" data-category="web">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/4.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">Web Design</span>
+                                <h3 class="project-item-title">Personal Portfolio</h3>
+                                <a href=" https://yel-yan-web-designer.github.io/Zwe-Yan-Naing.github.io/" class="project-link" target="_blank"> 
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                        <!-- project item 5 -->
+                        <div class="project-item" data-category="business">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/5.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">Business Web Design</span>
+                                <h3 class="project-item-title">Digital Creative Agency</h3>
+                                <a href="https://yel-yan-web-designer.github.io/Solo-Creative.github.io/" class="project-link" target="_blank"> 
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                        <!-- project item 6 -->
+                        <div class="project-item" data-category="ui">
+                            <div class="project-item-inner">
+                                <div class="thumbnail">
+                                    <img src="./resources/img/6.svg" alt="">
+                                    <div class="mask"></div>
+                                </div>
+                                <span class="term">UI Design</span>
+                                <h3 class="project-item-title">MIEG Myanmar UI</h3>
+                                <a href="https://www.behance.net/gallery/156094939/MIEG-Myanmar-Project-UI-Design" class="project-link" target="_blank"> 
+                                    <span>Check</span>
+                                </a>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <div class="container mx-auto p-15">
+
+                <div class="section-title text-center mb-5">
+                    <h1>
+                        Get In Touch With Me
+                    </h1>
+                </div>
+
+                <div class="d-flex contact-wrapper" style="gap: 1rem;">
+
+                    <div class="contact-info d-flex flex-column justify-between" style="row-gap: 2rem;">
+                        <div class="contact-connect d-grid" style="row-gap: 1rem;">
+                            <div class="phone">
+                                <h3>Call me for instant support</h3>
+                                <div class="contact-description">
+                                    <i class="lni lni-phone contact-icon contact-icon"></i>&nbsp;&nbsp; +959 261047323
+                                </div>
+                            </div>
+                            <div class="mail">
+                                <h3>Write me by mail</h3>
+                                <div class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>&nbsp;&nbsp; yelyanwebdesigner@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-icon-wrapper">
+                            <ul class="social-list d-flex w-50">
+                                <li class="socil-item"><a href="https://www.facebook.com/profile.php?id=100011037901538" target = "_blank" class="social-link">
+                                    <i class="lni lni-facebook-original"></i>
+                                </a></li>
+                                <li class="socil-item"><a href="https://github.com/Yel-Yan-Web-Designer" target = "_blank" class="social-link">
+                                    <i class="lni lni-github-original"></i>
+                                </a></li>
+                                <li class="socil-item"><a href="https://www.behance.net/yelyan" target="_blank" class="social-link">
+                                    <i class="lni lni-behance-original"></i>
+                                </a></li>
+                            </ul>    
+                        </div>
+                    </div>
+
+                    <form action="https://formspree.io/f/mwkzwbyv" method="POST" class="contact-form p-15">
+                        <div class="contact-inputs d-grid mb-3" style="row-gap: 1rem;">
+                            <!-- contact content -->
+                            <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                            
+                           
+                            <input type="mail" name = "email" placeholder="Email Address" class="contact-input" required>
+                        
+                        
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Write Your Project" class="contact-input contact-area" required></textarea>
+                        
+                            <div class="">
+                                <button type="submit" class="btn submit-btn">Submit</button> 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer text-center section" id="footer">
+            <div class="container mx-auto p-15">
+                <p>
+                    © copyright reserved by <span style="color: var(--clr-primary);">Yel Yan</span>
+                </p>
+            </div>
+        </footer>
+    </main>
+<!-- ? Theme Customization -->
+<!-- Theme customize -->
+<div class="theme-customize text-center">
+    <div class="card">
+        <!-- theme close -->
+        <div class="theme-close" id="theme-close">
+            <i class="lni lni-close"></i>
+        </div>
+        <h2>Customize Your View</h2>
+        <p>Manage your font-size,color and background</p>
+        <!-- font size -->
+        <div class="font-size">
+            <h3>Font size</h3>
+            <div class="d-flex justify-center align-center" style="column-gap: 1rem;">
+                <h6>Aa</h6>
+                <div class="choose-size d-flex justify-between align-center">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2"></span>
+                    <span class="font-size-3 active"></span>
+                    <span class="font-size-4"></span>
+                </div>
+                <h3>Aa</h3>
+            </div>
+        </div>
+        <!-- color -->
+        <div class="color">
+            <h3>Color</h3>
+            <div class="choose-color d-flex justify-between align-center">
+                <span class="color-1"></span>
+                <span class="color-2"></span>
+                <span class="color-3 active"></span>
+                <span class="color-4"></span>
+                <span class="color-5"></span>
+            </div>
+        </div>
+        <!-- background -->
+        <div class="background">
+            <h3>Background</h3>
+            <div class="choose-bg d-flex justify-between align-center" style="gap: 0.6rem">
+                <!-- light -->
+                <div class="bg-1 active">
+                    <span></span>
+                    <h5 for="bg-1">Light</h5>
+                </div>
+                <!-- Dim -->
+                <div class="bg-2">
+                    <span></span>
+                    <h5 for="bg-2">Dim</h5>
+                </div>
+                <!-- Dark -->
+                <div class="bg-3">
+                    <span></span>
+                    <h5 for="bg-3">Dark</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    <!-- Swiper js -->
+    <script src="./vendors/external-js/swiper-bundle.min.js"></script>
+    <!-- Custom js -->
+    <script src="./resources/js/main.js"></script>
+</body>
+</html>
